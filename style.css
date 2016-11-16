@@ -1,0 +1,81 @@
+body {
+	width: 960px;
+	background-color: #777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+header, nav, section, article, .headertag, .paragraphtag, aside, footer {
+	position: absolute;
+}
+
+header, nav, section, article, .headertag, .paragraphtag, footer {
+	left: 10px;
+}
+
+header, nav, section, .headertag, .paragraphtag, aside, footer {
+	background-color: #ebebeb;
+	color: #777;
+}
+
+header, nav, footer {
+	width: 940px;
+	height: 50px;
+	line-height: 7px;
+}
+
+header {
+	top: 10px;
+}
+
+nav {
+	top: 70px;
+}
+
+section, aside {
+	height: 400px;
+	top: 130px;
+}
+
+section {
+	width: 495px;
+}
+
+article {
+	background-color: #777;
+	color: #ebebeb;	
+	width: 475px;
+	height: 296px;
+	top: 90px;
+	left: 10px;
+}
+
+.headertag, .paragraphtag {
+	width: 455px;
+	height: 108px;
+}
+
+.headertag {
+	top:60px;
+	line-height: 90px;
+}
+
+h1, h2, h3 {
+	font-size: 18px;
+	display: inline-block;
+}
+
+.paragraphtag {
+	top: 160px;
+	line-height: 108px;
+}
+
+aside {
+	width: 435px;
+	left: 515px;
+}
+
+footer {
+	top: 540px;
+}
